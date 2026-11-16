@@ -6,7 +6,7 @@
 
 You have 9 rabbit holes and randomly from one of these holes the rabbit will peek his head to see what you are doing and he will only peek for few seconds within that time you should hit him and every time you get a hit your score will increase and if you miss the left attempts will be decreased and the total socre will decrease if you still have attempts and the time is done you will win other wise you will lose.
 
-### Game Description 
+### Sprint 
 
 Goal: the player can hit the rabbit when he appears and the score increase and if he miss the score will decrease and he should be able to win or lose 
 
