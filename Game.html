@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAC-A-MOLE</title>
+    <link rel="icon" type="image/png" href="../assets/mole.png">
+    <link rel="stylesheet" href="./CSS/Game.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+     <div id="Lables"> 
+    <label id="ScoreLable" class="lableContainer">Score: XXX</label>
+    <label id="TimeLable" class="lableContainer">Time: XXX</label>
+    <label id="StrikesLable" class="lableContainer">Strikes: XXX</label>
+    </div>
+
+    <div id="Note">
+    <h2 id="H2P">#How to Play#</h2>
+    <p id="NoteP">
+        #You will have a score that increases with every successful hit.<br/>
+        #You will have 1 minute to play and 3 strikes.<br/>
+
+        #If you miss a hit, you will receive a strike.<br/>
+        #If you reach 3 strikes, you lose.<br/>
+
+        #If the timer reaches 0 and you have less than 3 strikes,
+        YOU WIN!!!!
+    </p>
+
+    <button id="StartBtn">Start</button>
+</div>
+    
+
+    <div id="gameGrid">
+    <div class="hole" id="H1"></div>
+    <div class="hole" id="H2"></div>
+    <div class="hole" id="H3"></div>
+    <div class="hole" id="H4"></div>
+    <div class="hole" id="H5"></div>
+    <div class="hole" id="H6"></div>
+    <div class="hole" id="H7"></div>
+    <div class="hole" id="H8"></div>
+    <div class="hole" id="H9"></div>
+    <div class="hole" id="H10"></div>
+ 
+</div>
+</body>
+</html>
