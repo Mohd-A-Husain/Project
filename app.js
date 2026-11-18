@@ -22,7 +22,7 @@ function moles() {
     if (!gameRunning) return;
 
     Holes.forEach(hole => {
-        hole.style.backgroundImage = 'url("../assets/hole.png")';
+        hole.style.backgroundImage = 'url("assets/hole.png")';
         hole.onclick = null;
     });
 
@@ -41,7 +41,7 @@ function moles() {
         randomHole.onclick=null
         
 
-        randomHole.style.backgroundImage = 'url("../assets/hit_mole.png")';
+        randomHole.style.backgroundImage = 'url("assets/hit_mole.png")';
 
         clearTimeout(HitTimerId);
         HitTimerId = setTimeout(moles, 500);
@@ -79,7 +79,7 @@ function endGame() {
     clearTimeout(HitTimerId);
 
     Holes.forEach(hole => {
-        hole.style.backgroundImage = 'url("../assets/hole.png")';
+        hole.style.backgroundImage = 'url("assets/hole.png")';
         hole.onclick = null;
     });
 
