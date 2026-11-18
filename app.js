@@ -30,7 +30,7 @@ function moles() {
     const randomHole = Holes[randomNumber];
 
     activeHole = randomHole;
-    randomHole.style.backgroundImage = 'url("../assets/mole.png")';
+    randomHole.style.backgroundImage = 'url("assets/mole.png")';
 
     randomHole.onclick = () => {
         if (!gameRunning || activeHole !== randomHole) return;
